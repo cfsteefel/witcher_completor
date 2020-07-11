@@ -14,7 +14,6 @@
 
 <tr>
   <td>{ingredient.name}</td>
-  <td>{ingredient.rarity}</td>
     <td>
       {#each ingredient.location as l}
         {#if styles[l] != undefined }
@@ -24,6 +23,7 @@
         {/if}
       {/each}
     </td>
+  <td>{ingredient.rarity}</td>
   <td>{ingredient.quantity}</td>
   <td>{ingredient.forage}</td>
   <td>{ingredient.weight}</td>
